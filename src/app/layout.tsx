@@ -1,6 +1,5 @@
 import { ReactNode } from 'react';
 import { Metadata, Viewport } from 'next';
-import { NextUIProvider } from "@nextui-org/react";
 import 'normalize.css';
 import './global.scss';
 
@@ -23,9 +22,7 @@ export default function RootLayout({
 }>) {
   return <html lang="fr">
     <body>
-      <NextUIProvider>
-        {children}
-      </NextUIProvider>
+      {children}
     </body>
   </html>;
 };
