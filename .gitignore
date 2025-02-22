@@ -39,7 +39,4 @@ next-env.d.ts
 /.idea
 /.vscode
 
-/src/app/horaires/backup/*
-/src/app/horaires/data.json
-
 *.override.*
